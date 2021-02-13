@@ -1,4 +1,9 @@
 
+.container{
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .top{
   background-image: url(img/main-vsual-nontitle.png);
   background-size: cover;
@@ -41,6 +46,10 @@ header{
 
 }
 
+.second{
+  height: 500px;
+}
+
 .second h2{
   text-align:center;
   padding-top: 20px;
@@ -55,4 +64,16 @@ header{
 
 .description p{
   padding-right: 100px;
+}
+
+.course h2{
+  text-align:center;
+}
+
+.menus{
+  display: flex;
+}
+
+.menu img{
+  width: 90%;
 }
