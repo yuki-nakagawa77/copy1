@@ -33,17 +33,18 @@ header{
 }
 
 .header-left{
-}
-
-.header-left h4{
   float: left;
+  font-size: 20px;
+  line-height:0;
 }
 
 .header-right a{
   color: black;
   text-decoration: none;
   float: right;
-
+  margin: 20px;
+  font-weight:bold;
+  font-size: 15px;
 }
 
 .second{
@@ -80,6 +81,7 @@ header{
 
 .lnquiry{
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .lnquiry h2{
@@ -103,4 +105,14 @@ header{
   background    : #ff7f7f;
   color: #ffffff;
   border: 2px solid #ff7f7f;
+}
+
+footer{
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+}
+
+footer p{
+  font-size: 5px;
+  float: right;
 }
