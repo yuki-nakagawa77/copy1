@@ -1,7 +1,13 @@
 
+*{
+  box-sizing: border-box;
+}
+
+
 .container{
-  width: 1160px;
+  width: 100%;
   margin: 0 auto;
+  max-width: 1100px;
 }
 
 .top{
@@ -48,7 +54,7 @@ header{
 }
 
 .second{
-  height: 500px;
+  height: 350px;
 }
 
 .second h2{
@@ -64,7 +70,12 @@ header{
 }
 
 .description p{
-  padding-right: 100px;
+  padding-right: 50px;
+
+}
+
+.course{
+  padding-top: 50px;
 }
 
 .course h2{
