@@ -28,22 +28,31 @@ header{
 }
 
 .header-left{
-  float: left;
 }
 
 .header-left h4{
-  padding-left: 20px;
-  margin-bottom: 30px;
+  float: left;
 }
 
 .header-right a{
-  float:right;
   color: black;
-  margin-right: 40px;
-  margin-top: 10px;
   text-decoration: none;
+  float: right;
+
 }
 
-.text3{
-  padding-right: 80px;
+.second h2{
+  text-align:center;
+  padding-top: 20px;
+}
+
+.description img{
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+.description p{
+  padding-right: 100px;
 }
