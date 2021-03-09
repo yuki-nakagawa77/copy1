@@ -3,13 +3,15 @@
   box-sizing: border-box;
 }
 
-
+/*全体の幅*/
 .container{
   width: 100%;
   margin: 0 auto;
   max-width: 1100px;
 }
 
+
+/*↓topここから↓*/
 .top{
   background-image: url(img/main-vsual-nontitle.png);
   background-size: cover;
@@ -32,7 +34,11 @@
 .text2{
   padding-top: 20px;
 }
+/*↑topここまで↑*/
 
+
+
+/*↓ヘッダーここから↓*/
 header{
   height: 30px;
   width: 100%;
@@ -52,7 +58,11 @@ header{
   font-weight:bold;
   font-size: 15px;
 }
+/*↑ヘッダーここまで↑*/
 
+
+
+/*↓secondここから↓*/
 .second{
   height: 350px;
 }
@@ -73,7 +83,10 @@ header{
   padding-right: 50px;
 
 }
+/*↑secondここまで↑*/
 
+
+/*↓courseここから↓*/
 .course{
   padding-top: 50px;
 }
@@ -89,7 +102,11 @@ header{
 .menu img{
   width: 90%;
 }
+/*↑courseここまで↑*/
 
+
+
+/*↓lnquiryここから↓*/
 .lnquiry{
   text-align: center;
   margin-bottom: 80px;
@@ -117,7 +134,11 @@ header{
   color: #ffffff;
   border: 2px solid #ff7f7f;
 }
+/*↑lnquiryここまで↑*/
 
+
+
+/*↓footerここから↓*/
 footer{
   border-top: 1px solid #cccccc;
   padding-top: 20px;
@@ -127,3 +148,4 @@ footer p{
   font-size: 5px;
   float: right;
 }
+/*↑footerここまで↑*/
